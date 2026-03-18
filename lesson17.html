@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font-family: khmer os ;
+      background-color: olivedrab;
+      color: aliceblue;
+    background: linear-gradient(135deg,#0f172a,#1e293b);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    box-sizing: border-box;
+    *{
+      text-align: left;
+    }
+
+    }
+    form{
+      width: 500px;
+    }
+    input{
+      width: 100%;
+      border-radius: 10px;
+      padding: 5px;
+    }
+    textarea{
+      width: 100%;
+    }
+    select{
+      width: 100%;
+      padding: 10px;
+      background-color: papayawhip;
+      border-radius: 10px;
+    }
+    button{
+      padding: 5px;
+      margin-left: 50px;
+      margin-top: 10px;
+      border-radius: 10px;
+      background-color: pink;
+      font-family: khmer os;
+
+    }
+    .label{
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+    }
+    textarea{
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+<center>
+    <h1>Contact</h1>
+  <form action="">
+    <label for="Inpname">Name:</label>
+    <input type="text" id="Inpname">
+    <label for="Inpemail">Email:</label>
+    <input type="email" id="Inpname">
+    <label for="Inpmessage">Message:</label>
+    <textarea name="" id="txtmessage"></textarea>
+    <select name="" id="slcountry"  >
+       <option value="">Select Country</option>
+       <option value="">Cambodia</option>
+       <option value="">Thiefland</option>
+       <option value="">USA</option>
+       <option value="">IRAN</option>
+       </select>
+       <button type="submit" >Submit</button>
+       <button type="reset" >Clear</button>
+  </form>
+</center>
+</body>
+</html>

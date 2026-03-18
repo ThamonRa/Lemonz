@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            overflow: hidden;
+            text-align: center;
+            border-style: solid;
+
+        }
+        .rightSideBar{
+            background-color: plum;
+            width: 22%;
+            float: left;
+            padding: 10px;
+            margin-right: 3%;
+          
+          
+        }
+        .maincontent{
+            background-color: burlywood;
+            width: 50%;
+            float: left;
+            padding:10px;
+           
+        }
+        .leftsidebBar{
+            background-color: aquamarine;
+            width: 22%;
+            float: left;
+            padding: 10px;
+            margin-left: 3%;
+
+           
+        }
+        body{
+            background-color: bisque;
+            color:balck ;
+            font-family: khmer os;
+
+        }
+        .nav{
+            background-color: aqua;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+            border-width: 3px;
+            border-style: solid;
+            border-color: rgb(77, 116, 231);
+        }
+        .footer{
+            width: 100%;
+            background-color: rosybrown;
+        }
+        .ctrlMaincontent{
+            overflow: hidden;
+        }
+         @media screen and ( max-width: 480px){
+            .leftsidebBar,.rightSideBar,.maincontent{
+                float: none;
+                width: 100%;
+            }
+    
+
+         }
+    </style>
+</head>
+<body>
+    <div class="nav">Title</div>
+    <div class="ctrlMaincontent">
+    <div class="leftsidebBar">
+        <h2>Left Side Bar</h2>
+        <p>Sl ke</p>
+    </div>
+
+    <div class="maincontent">
+        <h2>Main content</h2>
+        <p>Mnak eng</p>
+    </div>
+    <div class="rightSideBar">
+        <h2>Right Side Bar</h2>
+        <p>Hot teh</p>
+    </div>
+    <div class="footer">Hev bay</div>
+    </div>
+</body>
+</html>

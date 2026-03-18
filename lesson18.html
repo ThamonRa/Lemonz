@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            font-family: Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        form{
+            background-color: white;
+            width: 350px;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        label{
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        input{
+            width: 100%;
+            margin-top: 15px;
+            padding: 14px;
+            border-radius: 6px;
+            border: 1px solid #dddfe2;
+            font-size: 15px;
+            box-sizing: border-box;
+        }
+
+        input:focus{
+            outline: none;
+            border: 1px solid #1877f2;
+        }
+
+        .btnlogin{
+            width: 100%;
+            border-radius: 6px;
+            background-color: #1877f2;
+            color: white;
+            padding: 14px;
+            margin-top: 15px;
+            border: none;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .btnlogin:hover{
+            background-color: #166fe5;
+        }
+
+        .btnpassword{
+            background: none;
+            border: none;
+            color: #1877f2;
+            margin-top: 12px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .btnpassword:hover{
+            text-decoration: underline;
+        }
+        .btncreate{
+            background-color: #42b72a;
+            color: white;
+            border-radius: 6px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 12px;
+            margin-top: 5px;
+        }
+        .btncreate:hover{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="">
+        <label>Login to Facebook</label><br>
+        <input type="email" placeholder="Email or phone number">
+        <input type="password" placeholder="Enter your Password">
+        <button class="btnlogin">Login</button>
+        <button class="btnpassword" type="button">Forgot your password?</button>
+        <hr>
+        <button class="btncreate">Create new account</button>
+    </form>
+
+</body>
+</html>
